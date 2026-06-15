@@ -1,0 +1,32 @@
+{
+  "entities": {
+    "MsDossier": {
+      "title": "MsDossier",
+      "description": "A supplier management standard (MS) dossier record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "material": { "type": "string" },
+        "supplier": { "type": "string" },
+        "msType": { "type": "string" },
+        "certName": { "type": "string" },
+        "certNo": { "type": "string" },
+        "scope": { "type": "string" },
+        "body": { "type": "string" },
+        "issueDate": { "type": "string" },
+        "expiryDate": { "type": "string" },
+        "file": { "type": "string" },
+        "emailSent": { "type": "boolean" },
+        "lastEmailDate": { "type": "string" },
+        "emailNotes": { "type": "string" }
+      },
+      "required": ["id", "material", "supplier"]
+    }
+  },
+  "firestore": {
+    "/ms_dossiers/{dossierId}": {
+      "schema": { "$ref": "#/entities/MsDossier" },
+      "description": "Stores the supplier certificates synced to the cloud."
+    }
+  }
+}

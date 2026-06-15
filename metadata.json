@@ -1,0 +1,10 @@
+{
+  "name": "ต้นแบบ Jun 2026",
+  "description": "ระบบบริหารจัดการ HR อัจฉริยะ ครบวงจร",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

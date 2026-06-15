@@ -1,0 +1,30 @@
+<svg viewBox="0 0 100 100" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(50,50)">
+    
+      <g transform="rotate(0)">
+        <circle cx="-10" cy="-35" r="8" fill="#1e3347" />
+        <path d="M -15,-22 C -30,-5 -20,15 0,15 C -10,15 -18,5 -10,-10 C -5,-20 0,-20 5,-25 C 0,-28 -10,-28 -15,-22 Z" fill="#1e3347" />
+      </g>
+    
+      <g transform="rotate(72)">
+        <circle cx="-10" cy="-35" r="8" fill="#405974" />
+        <path d="M -15,-22 C -30,-5 -20,15 0,15 C -10,15 -18,5 -10,-10 C -5,-20 0,-20 5,-25 C 0,-28 -10,-28 -15,-22 Z" fill="#405974" />
+      </g>
+    
+      <g transform="rotate(144)">
+        <circle cx="-10" cy="-35" r="8" fill="#899fbc" />
+        <path d="M -15,-22 C -30,-5 -20,15 0,15 C -10,15 -18,5 -10,-10 C -5,-20 0,-20 5,-25 C 0,-28 -10,-28 -15,-22 Z" fill="#899fbc" />
+      </g>
+    
+      <g transform="rotate(216)">
+        <circle cx="-10" cy="-35" r="8" fill="#a3b6ca" />
+        <path d="M -15,-22 C -30,-5 -20,15 0,15 C -10,15 -18,5 -10,-10 C -5,-20 0,-20 5,-25 C 0,-28 -10,-28 -15,-22 Z" fill="#a3b6ca" />
+      </g>
+    
+      <g transform="rotate(288)">
+        <circle cx="-10" cy="-35" r="8" fill="#ccd3e0" />
+        <path d="M -15,-22 C -30,-5 -20,15 0,15 C -10,15 -18,5 -10,-10 C -5,-20 0,-20 5,-25 C 0,-28 -10,-28 -15,-22 Z" fill="#ccd3e0" />
+      </g>
+    
+  </g>
+</svg>
